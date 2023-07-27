@@ -1,0 +1,90 @@
+.home{
+    width: 1080px;
+    margin: 0 auto;
+}
+
+.home_btn_area{
+    margin-bottom: 10px;
+}
+.home_btn{
+    width: 150px;
+    height: 50px;
+    background-color: #FFE68B;
+    font-Size: 20px;
+    border: none;
+    display: inline-block;
+    margin: 10px;
+}
+.home_btn h4{
+    margin: 14px;
+}
+.margincenter{
+    margin: 0 auto;
+}
+.reco_slice{
+    width: 350px !important;
+    height: 155px !important;
+    
+    
+}
+.reco_slice table{
+    width: 350px !important;
+    height: 155px !important;
+    margin: 0 auto;
+    
+}
+.reco_slice td{
+    max-width: 360px;
+
+}
+.reco_slice p{
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}
+.wid5px{
+    height: 50px;
+}
+
+.slick-prev, .slick-next{
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: 50%;
+    display: block;
+    width: auto !important;
+    height: auto !important;
+    padding: 0;
+    transform: translate(0, -50%);
+    cursor: pointer;
+    color: transparent;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+.slick-next {
+    right: -50px !important;
+}
+.slick-prev {
+    left: -50px !important;
+}
+
+.margin1{
+    width: auto;
+    height: 1px;
+    margin: 30px;
+}
+.margin2{
+    width: auto;
+    height: 1px;
+    margin: 20px;
+}
+
+.in-bl{
+    display: inline-block;;
+}
+.ig_size{
+    margin-left: 5px;
+    cursor: pointer;
+    size: 30px;
+}

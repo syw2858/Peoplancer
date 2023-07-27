@@ -1,0 +1,72 @@
+.modal-schedule {
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.modal-schedule.openModal {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    animation: modal-bg-show-gj 0.3s;
+}
+
+.modal-schedule>section {
+    width: 90%;
+    min-width: 600px;
+    max-width: 900px;
+    min-height: 920px;
+    margin: 0 auto;
+    border-radius: none;
+    background-color: #FFFFFF;
+    animation: modal-show-gj 0.3s;
+    overflow: hidden;
+}
+
+.modal-schedule>section>main {
+    padding: 0px 16px 0px 16px;
+    position: relative;
+    overflow-y: auto;
+}
+
+.modal-schedule button.close-gj {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 30px;
+    outline: none;
+    cursor: pointer;
+    border: 0;
+    font-size: 21px;
+    font-weight: 700;
+    text-align: center;
+    color: #707070;
+    background-color: transparent;
+}
+
+@keyframes modal-show-gj {
+    from {
+        opacity: 0;
+        margin-top: -50px;
+    }
+
+    to {
+        opacity: 1;
+        margin-top: 0;
+    }
+}
+
+@keyframes modal-bg-show-gj {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}

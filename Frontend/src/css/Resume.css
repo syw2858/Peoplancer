@@ -1,0 +1,389 @@
+.resume {
+    width: 830px;
+    text-align: left !important;
+   
+}
+.reflex{
+    display: flex;
+    margin: 0 auto;
+}
+.resume_section {
+    margin: 10px 0 10px;
+    font-family: "Malgun Gothic",dotum,gulim,sans-serif;
+    
+}
+.resume_section .area_title {
+    position: relative;
+    padding-bottom: 15px;
+    
+    min-height: 33px;
+}
+.resume_section .area_title h3.title {
+    text-align: center;
+    color: #222;
+    font-size: 26px;
+    font-weight: bold;
+    letter-spacing: -2px;
+    line-height: 34px;
+}
+.resume_section .resume_write {
+    
+    position: relative;
+    padding: 20px 0 25px;
+    background-color: #fbfbfb;
+}
+.resume_section .resume_write .resume_row {
+    position: relative;
+
+    padding: 0 49px 25px;
+}
+.resume_write .resume_row .input_title {
+    float: left;
+    padding-top: 15px;
+    width: 150px;
+    color: #222;
+    font-size: 16px;
+    letter-spacing: -1px;
+    line-height: 21px;
+}
+.resume_write .resume_row .input_title .point {
+    color: #fc0038;
+    font-size: 12px;
+    letter-spacing: -1px;
+}
+.resume_input .box_input, .resume_select .box_input {
+    padding: 0 5px 0 20px;
+    width: 357px;
+    height: 50px;
+    border: 1px solid #dfdfdf;
+    box-sizing: border-box;
+    color: #222;
+    font-size: 16px;
+
+}
+.recenter{
+    margin: 0 auto;
+}
+.taleft{
+    width: 500px;
+}
+.resume_input .file_input {
+    padding: 0 15px 0 0px;
+    width: 357px;
+    
+    box-sizing: border-box;
+    color: #222;
+    font-size: 16px;
+    line-height: 46px;
+}
+.sri_select.resume_select {
+    height: auto;
+    vertical-align: top;
+}
+.resume_section .resume_right {
+    margin-left: 17px;
+}
+.resume_input .size_type3, .resume_select .selected.size_type3 {
+    width: 208px !important;
+}
+.resume_input input[type=file]::file-selector-button {
+    width: 100px;
+    height: 50px;
+    background: #FFC700;
+    border: 1px solid #dfdfdf;
+    cursor: pointer;
+
+  }
+.sri_select.resume_select .selected {
+    overflow: hidden;
+    padding: 0 29px 1px 25px;
+    width: 357px;
+    height: 50px;
+    border: 1px solid #dfdfdf;
+    box-sizing: border-box;
+    color: #a8a8a8;
+    font-family: "Malgun Gothic",dotum,gulim,sans-serif;
+    font-size: 16px;
+    letter-spacing: -1px;
+    text-align: left;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    background-color: #fff;
+    background-position: 100% 9px;
+    cursor: pointer;
+}
+.inpRdoSw .inOption>input {
+    position: absolute;
+    top: 0;
+    width: 1px;
+    height: 1px;
+    outline: none;
+    opacity: 0;
+    pointer-events: none;
+}
+input[type="radio" i] {
+    background-color: initial;
+    cursor: default;
+    appearance: auto;
+    box-sizing: border-box;
+    margin: 3px 3px 0px 5px;
+    padding: initial;
+    border: initial;
+}
+.resume_write .inpRdoSw.resume_right .inOption .lbl {
+    width: 104px;
+}
+.inpRdoSw .inOption>input:checked+.lbl {
+    position: relative;
+    z-index: 2 !important;
+    border-color: #FFC700 !important;
+    background-color: #FFC700 !important;
+    color: #000;
+}
+.inpRdoSw.sizeXL .inOption>.lbl {
+    padding-top: 11px;
+    padding-bottom: 11px;
+    height: 50px;
+    font-size: 16px;
+    line-height: 26px;
+}
+.inpRdoSw .inOption>.lbl {
+    display: inline-block;
+    padding: 5px 14px 6px;
+    height: 32px;
+    border: 1px solid #dbdbdb;
+    box-sizing: border-box;
+    color: #666;
+    font-size: 13px;
+    letter-spacing: -1px;
+    line-height: 19px;
+    text-align: center;
+    vertical-align: top;
+    background-color: #fff;
+    cursor: pointer;
+    user-select: none;
+}
+.wid{
+    width: 750px;
+}
+.select__control{
+    padding: 0 0px 0 15px;
+    margin-top: 10px;
+    width: 357px;
+    min-height: 50px !important;
+    border-radius: 0% !important;
+    border: 1px solid #dfdfdf !important;
+    box-sizing: border-box;
+    color: #222;
+    font-size: 16px;
+
+}
+.select__menu{
+    width: 358px !important;
+    
+    margin-left: 150px !important;
+}
+
+.tag_div:focus-within .listul {
+    display: block;
+  }
+  .resume_input.tag_div:focus-within .listul,
+  .resume_input.tag_div .listul li:hover {
+    display: block;
+  }
+.tag_div ul{
+
+    margin: 0 auto;
+    padding: 8px 0;
+    background-color: white;
+    position: absolute;
+    border-top: none;
+    border-radius: 0 0 16px 16px;
+    height: 200px !important;
+    display: block;
+    list-style-type: none;
+    z-index: 3;
+    width: 357px;
+    margin-left: 150px;
+    border: 1px solid #dfdfdf;
+    overflow-y: scroll;
+    color: #222;
+    font-size: 16px;
+}
+
+.tag_div li{
+    padding: 0 16px;
+}
+.tag_div li:hover{
+    background-color: #FBDB6A;
+    cursor: pointer;
+}
+.tagbox{
+
+    margin-top: 10px;
+    width: 357px;
+    margin-left: 150px;
+    box-shadow: 0 0 0 1px #dfdfdf inset;
+    height: auto !important;
+    white-space: normal !important;
+}
+.tag_input .tag_delbtn{
+    position: absolute;
+    top: 17px;
+    left:492px;
+    z-index: 1;
+    cursor: pointer;
+}
+.tag_item{
+  display:inline-block;
+  align-items: center;
+  justify-content: space-between;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 5px;
+  color: black;
+  font-size: 16px;
+  background-color: #FFEBB4;
+  line-height: 20px !important;
+}
+.tag_item button{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 13px;
+    background-color: initial;
+    border-radius: 50%;
+    color: black;
+    border: none;
+    outline: 0;
+}
+.tag_item_del{
+    margin-left: 5px;
+    
+    font-weight: 900;
+    color:#ff4e75 !important;
+}
+
+.resume_input .size_type5, .resume_select .selected.size_type5 {
+    margin-right: 0;
+    width: 730px !important;
+}
+.resume_input .box_input, .resume_select .box_input {
+    padding: 0 5px 0 20px;
+    width: 357px;
+    height: 50px;
+    border: 1px solid #dfdfdf;
+    box-sizing: border-box;
+    color: #222;
+    font-size: 16px;
+
+}
+.resume_section .resume_bottom {
+    margin-top: 12px;
+}
+.resume_input, .resume_select {
+    position: relative;
+    font-size: 14px;
+    text-align: left;
+    vertical-align: top;
+}
+.btn-color03 {
+    color: #000 !important;
+    background: #FFC700 !important;
+    border: 1px solid #e1e1e1 !important;
+}
+.btn-color04 {
+    color: #000 !important;
+    background: #FBDB6A !important;
+    border: 1px solid #e1e1e1 !important;
+}
+.size_pay{
+    padding: 0 10px 0 10px !important;
+    width: 55px !important;
+}
+.pay_text{
+    position: absolute;
+    top: 12px;
+    left:300px;
+    font-size: 19px;
+    z-index: 1;
+    cursor: pointer;
+}
+.pay_size{
+    margin-left: 10px;
+    padding: 0 10px 0 10px !important;
+    font-size: 16px !important;
+    width: 267px !important;
+}
+.fre_ca_size{
+    width: 200px !important;
+}
+.size_fre_ca{
+    padding: 0 10px 0 10px !important;
+    width: 140px !important;
+}
+.file_input_hidden {
+    position: absolute !important;
+    width: 0 !important;
+    height: 0 !important;
+    padding: 0 !important;
+    overflow: hidden !important;
+    border: 0 !important;
+}
+.filebox label {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    vertical-align: middle;
+    background-color: #999999;
+    cursor: pointer;
+    height: 40px;
+    margin-left: 10px;
+}
+.filebox .upload-name {
+    display: inline-block;
+    height: 40px;
+    padding: 0 10px;
+    vertical-align: middle;
+    border: 1px solid #dddddd;
+    width: 78%;
+    color: #999999;
+}
+.file_label{
+    display: inline-block !important;
+    width: 95px;
+    line-height: 48px;
+    font-size: 18px;
+    margin-bottom: 0px;
+    margin-right: 10px;
+    color: #000;
+    background: #FFC700 !important;
+
+    border: 1px solid #e1e1e1 !important;
+    text-align: center;
+    font-weight: 1000;
+    background: #fff;
+
+}
+.file_input_size{
+    text-overflow: ellipsis;
+    width: 252px !important;
+}
+.custom-datalist {
+    -moz-appearance: none;
+    /* for Safari, Chrome, Opera */
+    -webkit-appearance: none;
+  }
+
+  .custom-option {
+
+  }
+
+  option:hover,  .active{
+    background-color: lightblue;
+  }
+
+  .flri{
+    float: right;
+  }

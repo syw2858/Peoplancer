@@ -1,0 +1,94 @@
+.admin-page {
+    display: flex;
+}
+
+.sidebar-admin {
+    min-width: 210px;
+    min-height: 100vh;
+    padding: 0 20px 0 20px;
+    background: #FBDB6A;
+    margin-right: 30px;
+    overflow: hidden;
+}
+
+.main-content {
+    display: inline-block;
+    min-width: 80vh;
+    max-width: 100vh;
+    flex-grow: 1;
+    padding: 20px;
+    background: #fff;
+}
+.main-content1{
+    display: inline-block;
+
+    flex-grow: 1;
+    padding: 20px;
+    background: #fff;
+}
+
+
+
+.sidebar-admin h5:hover,
+.sidebar-admin h4:hover {
+
+    background: #b6ad8b;
+    margin-right: 15px;
+}
+
+.sidebar-admin h5.not_hover:hover,
+.sidebar-admin h4.not_hover:hover {
+    background: #FBDB6A;
+
+}
+
+.data1,
+.data2,
+.data3 {
+    min-width: 150px;
+}
+
+.project-table {
+    width: 900px;
+    border-collapse: collapse;
+}
+
+.project-table th,
+.project-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.project-table th {
+    background-color: #f2f2f2;
+    text-align: left;
+}
+
+.bardata-table,
+.combinedData-table,
+.userdata-table,
+.supportData-table {
+    width: 900px;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.bardata-table th,
+.bardata-table td,
+.combinedData-table th,
+.combinedData-table td,
+.userdata-table th,
+.userdata-table td,
+.supportData-table th,
+.supportData-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.bardata-table th,
+.combinedData-table th,
+.userdata-table th,
+.supportData-table th {
+    background-color: #f2f2f2;
+    text-align: left;
+}

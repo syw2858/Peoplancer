@@ -1,0 +1,78 @@
+.RvForm {
+    padding: 30px;
+}
+
+.RvForm table, .RvList table {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.RvForm select {
+    padding: 5px;
+    width: 150px;
+}
+
+.RvForm textarea {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.RvWrite {
+    padding: 30px 0;
+}
+
+.RvList td,
+.RvForm td {
+    padding: 5px;
+    white-space: normal !important;
+}
+
+.RvBtn {
+    padding: 3px 12px;
+    background-color: #444;
+    color: white;
+    border: 0;
+    border-radius: 20px;
+}
+
+.RvBtn:hover {
+    color: rgb(211, 211, 211);
+    cursor: pointer;
+}
+
+.RvBtn2 {
+    font-size: 16px;
+    background-color: #FBDB6A;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 20px;
+    margin: 0 auto;
+}
+
+.RvBtn2:hover {
+    cursor: pointer;
+    color: #444;
+}
+
+.RvBtn3 {
+    padding: 3px 12px;
+    background-color: white;
+    color: #444;
+    border: 1px solid #444;
+    border-radius: 20px;
+}
+
+.RvBtn3:hover,
+.RvBtn4:hover {
+    color: #717171;
+    cursor: pointer;
+}
+
+.RvBtn4 {
+    background-color: white;
+    border: none;
+}
+
+.RvNull {
+    padding: 50px;
+}

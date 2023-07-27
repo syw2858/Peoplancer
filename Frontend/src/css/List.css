@@ -1,0 +1,114 @@
+
+
+.ListSelect {
+    width: 120px; height: 40px; margin: 20px 2px; padding: 5px 20px 5px;
+    border: 1px solid rgb(211, 211, 211); color: #444;
+}
+
+.ListBox {
+    width: 50%; height:fit-content; margin: 20px auto; padding: 20px;
+    background-color: #ffffff; box-shadow: rgba(0, 0, 0, 0.12) 0px 18px 25px -10px;
+    border-radius: 20px;
+    transition-duration:0.3s;
+       transition-delay:0.2s;
+}
+
+.ListBox:hover {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.17) 0px 8px 16px -8px;
+}
+
+.ListText {
+    color: black; width: 100%; height: 100%; font-size: 16px;
+}
+
+.ListText table {
+    margin: 0 auto; text-align: center; 
+}
+
+.ListText td {
+    padding: 10px;
+}
+
+.ListJobTag {
+    background-color: #FBDB6A; color: #000000;
+    font-size: 14px; border-radius: 20px;
+    text-align: center; padding: 7px; margin: 10px;
+}
+
+.ListPossible {
+    border: 1px solid #bebebe;;
+    background-color: #ffffff; border-radius: 20px;  color: #444;
+    text-align: center; padding: 7px; margin: 10px; font-size: 14px;
+}
+
+.ListBar { color:#cfcfcf; }
+
+.ListIntro {
+    color: black; font-weight: bold; font-size: larger;
+}
+.ListOption{
+    width: 80%;
+    margin: 0 auto;
+}
+.ListFilter{
+    /* float: left; */
+    margin: 0 auto;
+}
+.ListHr{
+    clear:both;
+}
+.Listnew{
+  text-align: right;
+}
+.Listnew-box{
+    border: 0px;
+  }
+.List-search-wrapper{
+    float: right;
+    padding: 0 0 0 0;
+    text-align: center;
+    height: 69px;
+}
+.List-search-area{
+    /* padding: 15px 0 0 0; */
+}
+.List-search-area select{
+    float: left;
+    width: 80px;
+    height: 40px;
+    border: 1px solid #d4d4d4;
+    margin-right: 4px;
+    font-size: 14px;
+    color: #6c6e6f;
+    background-color: #fff;
+    text-indent: 10px;
+    background-position: calc(100% - 10px) center;
+    background-size: 12px 6px;
+}
+.List-search-area .List-search-box{
+    float:left;
+}
+.List-search-area .List-search-box input[type="search"] {
+    float: left;
+    width: 180px;
+    height: 40px;
+    line-height: 38px;
+    border: 1px solid #d4d4d4;
+    border-right: 0;
+    text-indent: 10px;
+    font-size: 14px;
+}
+.List-search-area .List-search-box input[type="submit"] {
+    float: left;
+    width: 60px;
+    height: 40px;
+    line-height: 40px;
+    color: #000;
+    cursor: pointer;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    background: #FBDB6A;
+    border-radius: 0;
+    border: 0;
+}

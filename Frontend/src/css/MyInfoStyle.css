@@ -1,0 +1,148 @@
+.mytitle {
+  font-size: 28px;
+  text-align: left;
+  flex-direction: column;
+  display: flex;
+  font-style: bold;
+  margin-bottom: 40px;
+}
+
+div.myInfoList {
+  padding: 0px;
+  flex-direction: column;
+  display: flex;
+  margin-right: 57vh;
+}
+
+div.mylistGroup {
+  margin-bottom: 20px;
+  flex-direction: column;
+  display: inline-block;
+}
+
+.mylabel {
+  width: 180px;
+  margin-right: 150px;
+  font-size: 20px;
+  display: inline-block;
+  text-align: left;
+}
+
+.myidp {
+  font-size: 20px;
+  display: inline-block;
+  margin-left: 10px;
+  text-align: left;
+  width: 500px;
+}
+
+.myinfoinput {
+  display: inline-block;
+  width: 500px;
+  border: none;
+  border-bottom: 2px solid #d9d9d9;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 2px;
+}
+
+.myFileName {
+  display: inline-block;
+  padding: 6px 25px;
+  background-color: #fbdb6a;
+  border-radius: 5px;
+  color: #a98600;
+  cursor: pointer;
+}
+
+.myfileinput {
+  display: inline-block;
+  width: 500px;
+  border: none;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 2px;
+}
+
+.myfileinput[type="file"]::file-selector-button {
+  width: 100px;
+  height: 50px;
+  font-size: 20px;
+  background-color: #fbdb6a;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.myinfoinput::-webkit-inner-spin-button {
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+}
+
+.myinfoinput:focus {
+  outline: 2px solid #d9d9d9;
+}
+
+.myError {
+  color: red;
+  margin-left: 35vh;
+  font-size: 15px;
+  text-align: left;
+}
+
+.mybutton-group {
+  margin-left: 15vh;
+  display: inline-block;
+}
+
+button.myeditInfo {
+  box-sizing: border-box;
+  width: 110px;
+  height: 55px;
+  font-size: 18px;
+  flex-direction: column;
+  display: inline-block;
+  align-items: center;
+  text-align: center;
+  padding: 15px;
+  background-color: #fbdb6a;
+  color: #a98600;
+  border-radius: 20px;
+  border: none;
+  /* margin-left: 740px; */
+  cursor: pointer;
+}
+
+button.myeditInfo:hover {
+  background-color: #ffebb4;
+  color: #bf9b30;
+  font-weight: bold;
+}
+
+button.mywithdrawal {
+  box-sizing: border-box;
+  text-decoration-style: bold;
+  /* position: relative; */
+  flex-direction: column;
+  align-items: center;
+  width: 110px;
+  height: 55px;
+  display: inline-block;
+  text-align: center;
+  align-items: center;
+  padding: 15px;
+  font-size: 18px;
+  background-color: #fbdb6a;
+  color: #a98600;
+  border-radius: 20px;
+  border: none;
+  margin-left: 15.5px;
+  cursor: pointer;
+}
+button.mywithdrawal:hover {
+  background-color: #ffebb4;
+  color: #bf9b30;
+  font-weight: bold;
+}

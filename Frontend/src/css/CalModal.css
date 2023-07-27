@@ -1,0 +1,116 @@
+.modal-cal {
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.confirmation-modal {
+    z-index: 9999;
+}
+
+.confirmation-modal>section>header {
+    position: relative;
+    padding: 16px 16px 16px 16px;
+    background-color: #ffffff !important;
+    font-size: 21px;
+    font-weight: 500;
+}
+
+
+.modal-cal button.cal-gj {
+    outline: none;
+    cursor: pointer;
+    border: 0;
+}
+
+.modal-cal button.close-gj {
+    outline: none;
+    cursor: pointer;
+    border: 0;
+}
+
+
+.modal-cal>section {
+    width: 90%;
+    max-width: 450px;
+    margin: 0 auto;
+    border-radius: 0.3rem;
+    background-color: #FFFFFF;
+    /* 팝업이 열릴때 스르륵 열리는 효과 */
+    animation: modal-show-gj 0.3s;
+    overflow: hidden;
+}
+
+.modal-cal>section>header {
+    position: relative;
+    padding: 16px 16px 16px 16px;
+    background-color: #FFEBB4;
+    font-size: 21px;
+    font-weight: 500;
+}
+
+.modal-cal>section>header button {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 30px;
+    font-size: 21px;
+    font-weight: 700;
+    text-align: center;
+    color: #707070;
+    background-color: transparent;
+}
+
+.modal-cal>section>main {
+    padding: 16px;
+    border-bottom: 1px solid #dee2e6;
+    border-top: 1px solid #dee2e6;
+}
+
+.modal-cal>section>footer {
+    padding: 12px 16px;
+    text-align: right;
+}
+
+.modal-cal>section>footer button {
+    padding: 6px 12px;
+    color: #fff;
+    background-color: #6c757d;
+    border-radius: 5px;
+    font-size: 13px;
+}
+
+.modal-cal.openModal {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    /* 팝업이 열릴때 스르륵 열리는 효과 */
+    animation: modal-bg-show-gj 0.3s;
+}
+
+@keyframes modal-show-gj {
+    from {
+        opacity: 0;
+        margin-top: -50px;
+    }
+
+    to {
+        opacity: 1;
+        margin-top: 0;
+    }
+}
+
+@keyframes modal-bg-show-gj {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}

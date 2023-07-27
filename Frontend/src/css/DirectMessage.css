@@ -1,0 +1,980 @@
+.dmContent-div {
+  display : table;
+  margin : 0 auto;
+  width : 70.0833vw;
+}
+
+.dmLft-div {
+  height: 14.2433vw;
+  width: 18.2vw;
+  border-radius: 1.0417vw;
+  background: #FFFBEB;
+  margin : 2.0833vw 2.1250vw 2.0833vw 1.0417vw;
+  float : left;
+  animation: 0.6s ease-in-out loadEffect2;
+}
+
+@keyframes loadEffect2 {
+  0%{
+      opacity: 0;
+      transform: translateX(-1.5625vw);
+  }
+  50%{
+      opacity: 0.5;
+      transform: translateX(1.5625vw);
+  }
+  100%{
+      opacity: 1;
+      transform: translateX(0.0000vw);
+  }
+}
+
+.dmLft-div2 {
+  height: 36.0433vw;
+  width: 18.2vw;
+  border-radius: 1.0417vw;
+  background: #FFFBEB;
+  margin : 2.0833vw 2.1250vw 2.0833vw 1.0417vw; 
+  float : left;
+  animation: 0.6s ease-in-out loadEffect3;
+}
+
+@keyframes loadEffect1 {
+  0%{
+      opacity: 0;
+  }
+  100%{
+      opacity: 1;
+  }
+}
+
+@keyframes loadEffect3 {
+  0%{
+      opacity: 0;
+      transform: scale(0.7);
+  }
+  65%{
+      opacity: 0.65;
+      transform: scale(1.01);
+  }
+  85%{
+      opacity: 0.85;
+      transform: scale(0.97);
+  }
+  100%{
+      opacity: 1;
+      transform: scale(1);
+  }
+}
+
+.dmRgt-div-top { 
+  height: 7.2917vw;
+  width: 46.4063vw;
+  margin-right: 0.6250vw;
+  float: left;
+  /*background: #D9D9D9;*/  /* 자리 잡으면 없앨 것 */
+}
+
+.dmRgt-div-bottom {
+  min-height: 24.6250vw;
+  max-height: 24.6250vw;
+  width: 47.4063vw;
+  margin-top: 1.5625vw;
+  margin-right: 0.6250vw;
+  float: left;
+  overflow-y: auto;
+  overflow-x:hidden;
+  /*background: #D9D9D9; */ /* 자리 잡으면 없앨 것 */
+}
+
+.dmRgt-div-input {
+  height: 4.1667vw;
+  width: 47.4063vw;
+  margin-top: 0.5208vw;
+  margin-right: 0.6250vw;
+  float: right;
+  /*background: #D9D9D9;*/ /* 자리 잡으면 없앨 것 */
+}
+
+.dmchat-room-select{
+height: 4.9896vw;
+width: 16.7500vw;
+border-radius: 1.0417vw;
+background-color: white;
+margin: 0 auto;
+margin-top: 1.1458vw;
+position: relative;
+overflow: hidden;
+}
+
+.dmchat-room-select:hover{
+  cursor: pointer;
+  background-color: #FBDB6A;
+  transition: 0.8s;
+}
+  
+.dmprofile-photo {
+height: 3.9479vw;
+width: 3.9479vw;
+border-radius: 4.6875vw;
+margin: 0.5208vw;
+margin-left: 1.2396vw;
+float:left;
+background-size: cover;
+background-image: url(/public/DirectMessage/freelancer1.png);
+}
+
+.dmprofile-photo-tmp {
+  height: 3.9479vw;
+  width: 3.9479vw;
+  border-radius: 4.6875vw;
+  margin: 0.5208vw;
+  margin-left: 1.2396vw;
+  float:left;
+  background-size: cover;
+  background-image: url(/public/DirectMessage/enterprise1.png);
+  }
+
+.dmprofile-name {
+height: 2.5000vw;
+width: 7.4167vw;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 1.5833vw;
+line-height: 2.5000vw;
+margin-left:0.4063vw;
+float: left;
+margin-top: 0.208vw;
+text-align: left;
+}
+
+.dmprofile-notify {
+  height: 1.8313vw;
+  width: 1.8313vw;
+  border-radius: 4.6875vw;
+  background-color: #FF6D6D;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.2625vw;
+  line-height: 1.8313vw;
+  text-align: center;
+  color: #FFFFFF;
+  margin-top:0.7854vw;
+  margin-left:0.458vw;
+  float : left;
+}
+
+.dmprofile-content {
+height: 1.8750vw;
+width: 8.8125vw;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 1.2625vw;
+line-height: 1.8750vw;
+color : rgba(0, 0, 0, 0.5);
+float: left;
+margin-left: 0.4063vw;
+margin-top: -0.3125vw;
+overflow: hidden;
+text-overflow: ellipsis;
+white-space:nowrap;
+text-align: left;
+}
+
+.dmprofile-line {
+height: 3.0271vw;
+width: 0.000vw;
+border-radius: 4.6875vw;
+border: 0.3208vw solid #FBDB6A;
+margin-top: 0.6913vw;
+margin-right: 0.2cw;
+float: right;
+}
+
+.dmundo-button {
+width: 3.3333vw;
+height: 3.3333vw;
+border-radius: 50%;
+float: left;
+background: url(/public/DirectMessage/new-undo-button.png);
+background-color: #FFC700;
+background-size: cover;
+margin-top:2.0833vw;
+}
+
+.dmundo-button:hover {
+  cursor:pointer;
+  background-color: #ffa600;
+  transition: 0.7s;
+}
+
+.dmRgt-center-div {
+  height: 4.9479vw;
+  width: 15.4479vw;
+float:left;
+margin-left: 13.3854vw;
+margin-top: 1.7813vw;
+/*background: #FF6D6D;*/
+}
+
+.dmRgt-center-div-profile {
+height: 3.9479vw;
+width: 3.9479vw;
+float:left;
+/*background: url(/public/DirectMessage/enterprise1.png);*/
+background-size: cover;
+}
+
+.dmRgt-center-div-name {
+  height: 4.9479vw;
+  width: 7.5000vw;
+  float:left;
+  font-family: Inter;
+  font-size: 2.0833vw;
+  font-weight: 400;
+  line-height: 2.5000vw;
+  letter-spacing: 0em;
+  text-align: center;
+  padding-left: 0.5vw;
+  margin-top: 0.7500vw;
+  }
+
+
+.dminformation-button {
+  width: 3.3333vw;
+  height: 3.3333vw;
+  border-radius: 50%;
+  float:left;
+  margin-left: 9.3854vw;
+  background: url(/public/DirectMessage/new-information-button.png);
+  background-color:#FFC700;
+  background-size: cover;
+  margin-top:2.0833vw;
+  }
+
+  .dminformation-button:hover{
+    cursor:pointer;
+    background-color:#ffa600;
+    transition: 0.7s;
+  }
+
+.dmdvide-line {
+width: 46.1458vw;
+height: 0.4167vw;
+background: #FFC700;
+border-radius: 0.7813vw;
+margin-top:6.5104vw;
+}
+
+.dmdetail-profile-enterprise {
+height: 12.8750vw;
+width: 12.8750vw;
+float:left;
+margin-top : 0.78125vw;
+margin-bottom : 0.78125vw;
+margin-left : 2.5833vw;
+border-radius: 4.6875vw;
+background: url(/public/DirectMessage/enterprise1.png);
+background-size: cover;
+}
+
+.dmdetail-profile-freelancer {
+  height: 12.8750vw;
+  width: 12.8750vw;
+  float:left;
+  margin-top : 0.78125vw;
+  margin-bottom : 0.78125vw;
+  margin-left : 2.5833vw;
+  border-radius: 4.6875vw;
+  background: url(/public/DirectMessage/freelancer1.png);
+  background-size: cover;
+  }
+
+.dmdetail-profile-enterprise:hover {
+  cursor:pointer;
+}
+
+.dmdetail-profile-freelancer:hover {
+  cursor:pointer;
+}
+
+.dmdetail-bottom {
+height: 21.8vw;
+width: 18.2vw;
+float:left;
+background-color: white;
+}
+
+.dmdetail-name {
+height: 3.4271vw;
+width: auto;
+font-family: Inter;
+font-size: 2.6458vw;
+font-weight: 700;
+line-height: 4.4271vw;
+letter-spacing: 0em;
+text-align: left;
+margin-top : 0.0417vw;
+margin-left: 0.7188vw;
+}
+
+.dmdetail-email {
+height: 1.8750vw;
+width: auto;
+font-family: Inter;
+font-size: 1.2625vw;
+font-weight: 400;
+line-height: 1.8750vw;
+letter-spacing: 0em;
+text-align: left;
+margin-left: 0.7188vw;
+}
+
+.dmdetail-telephone{
+  height: 1.8750vw;
+  width: auto;
+  font-family: Inter;
+  font-size: 1.2625vw;
+  font-weight: 400;
+  line-height: 1.8750vw;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-left: 0.7188vw;  
+}
+
+.dmdetail-score{
+  height: 3.1771vw;
+  width: auto;
+  font-family: Inter;
+  font-size: 1.6042vw;
+  font-weight: 400;
+  line-height: 3.1771vw;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-top:0.4583vw; 
+}
+
+.dmdetail-score-image {
+  height: 3.3756vw;
+  width: 18.6250vw;
+  margin-top: 0.7813vw;
+  /*margin-left :2.7083vw;*/
+background-size: cover;
+}
+
+.dmdetail-line {
+  height: 0.0000vw;
+  width: 18.8333vw;
+  margin-top: 0.5625vw;
+  margin-left: -0.3958vw;
+border: 0.0521vw solid #FFC700
+}
+
+.dmcorporation-img {
+height: 3.5417vw;
+width: 3.5417vw;
+background-image: url(/public/DirectMessage/pngegg.png);
+background-size: cover;
+margin-left: 3.6042vw;
+margin-top: 0.6042vw;
+float:left;
+}
+
+.dmcorporation-text {
+  height: 3.5417vw;
+width: auto;
+font-family: Inter;
+font-size: 1.642vw;
+font-weight: 100;
+line-height: 3.5417vw;
+letter-spacing: 0em;
+margin-left: 1.63vw;
+margin-top: 0.6042vw;
+margin-bottom: 0.6042vw;
+color: blue;
+float:left;
+}
+
+.dmnot-cooperate {
+  height: 2.5000vw;
+width: auto;
+text-align: center;
+font-family: Inter;
+font-size: 1.2833vw;
+font-weight: 400;
+line-height: 2.5000vw;
+margin-top: 0.6042vw;
+margin-bottom: 0.6042vw;
+color: gray;
+}
+
+.dminput-something {
+  height: 3.3333vw;
+  width: 3.3333vw;
+  border-radius: 50%;
+  float: left;
+  background-image: url(/public/DirectMessage/new-information-button3.png);  /* 자리 잡으면 없앨 것 */
+  background-color: #FFC700;
+  background-size: cover;
+  margin-top : 0.4167vw;
+}
+
+.dminput-something:hover {
+ cursor: pointer;
+ transform: rotate( 135deg );
+ background-color: #FFa600;
+ transition: 1s;
+}
+
+.dminput-text {
+  height: 2.5000vw;
+  width: 33.5625vw;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 1.5833vw;
+line-height: 2.5000vw;
+margin-left: 2.0833vw;
+margin-top : 0.8333vw;
+text-align: left;
+float: left;
+border: 0;
+}
+
+.dminput-text::placeholder {
+  color: gray;
+  }
+
+.dminput-text:focus{
+  outline: none;
+  color:black;
+}  
+
+.dminput-line {
+  height: 0.0000vw;
+  width: 34.0833vw;
+border: 0.0521vw solid #000000;
+margin-top: 4.0625vw;
+margin-left : 4.6875vw;
+}
+
+.dminput-button {
+  height: 3.6168vw;
+  width: 5.6610vw;
+  border-radius: 1.0417vw;
+float:left;
+
+background: #FFC700;
+border-radius: 1.0417vw;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 1.5833vw;
+line-height: 3.6168vw;
+text-align: center;
+vertical-align: middle;
+color: #FFFFFF;
+margin-left : 1.5000vw;
+margin-top: 0.4167vw;
+}
+
+.dminput-button:hover {
+ cursor: pointer;
+ background: #ffa600;
+ transition: 0.7s;
+  }
+
+.dmattach-pic {
+  position: absolute;
+  height: 3.3333vw;
+  width: 3.3333vw;
+  border-radius: 50%;
+  left: 34.496vw;
+  top: 31.1750vw;
+  background-image: url(/public/DirectMessage/new-information-button1.png);
+  background-color: #FFC700;
+  background-size: cover;
+  animation: 0.7s ease-in-out loadEffect1;
+}
+
+.dmattach-pic:hover {
+  cursor: pointer;
+  transform: scale(1.3);
+  background-color: #FFa600;
+  transition: 0.4s;
+}
+
+.dmattach-file {
+  position: absolute;
+  height: 3.3333vw;
+  width: 3.3333vw;
+  border-radius: 50%;
+  left: 38.6563vw;
+  top: 31.1750vw;
+  background-image: url(/public/DirectMessage/new-information-button2.png);
+  background-color: #FFC700;
+  background-size: cover;
+  animation: 0.7s ease-in-out loadEffect1;
+}
+
+.dmattach-file:hover {
+  cursor: pointer;
+  transform: scale(1.3);
+  background-color: #FFa600;
+  transition: 0.4s;
+}
+
+.dmRgt-chat-profile {
+  height: 2.9479vw;
+  width: 2.9479vw;
+  margin-left: 2.3438vw;
+  background-size: cover;  
+  float: left;
+}
+
+.dmRgt-chat-name {
+  height: 2.3438vw;
+  width: calc(100% - 10.4167vw);
+font-family: Inter;
+font-size: 1.2833vw;
+font-weight: 400;
+line-height: 2.5000vw;
+letter-spacing: 0em;
+margin:1.5625vw;
+margin-top:0.3021vw;
+text-align: left;
+float:left;
+}
+
+.dmRgt-chat-content {
+height: auto;
+width: auto;
+border-radius: 0.7813vw;
+border-top-left-radius: 0;
+max-width: 28.6667vw;
+background: #FFFBEB;
+/*float:left;*/
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 100;
+font-size: 1.0833vw;
+line-height: 1.5000vw;
+text-align: left;
+padding-top : 0.8438vw;
+padding-left: 1.1250vw;
+padding-right: 1.1250vw;
+padding-bottom : 0.8438vw;
+color: #000000;
+word-wrap: break-word;
+/*display : table;*/
+white-space: normal;
+word-wrap: break-word;
+word-break: break-all;
+}
+
+.dmRgt-chat-arrow {
+  height: 0.0000vw;
+  width: 0.0000vw;
+  border-bottom: 0.9625vw solid transparent;
+  border-top: 0.9625vw solid transparent;
+  border-right: 0.9625vw solid  #FFFBEB;
+float:left;
+margin-left : 4.6250vw;
+}
+
+.dmRgt-chat-time {
+font-family: Inter;
+font-size: 1.0625vw;
+font-weight: 400;
+line-height: 1.8750vw;
+letter-spacing: 0em;
+/*float:left;*/
+text-align: right;
+height: 1.8750vw;
+margin-right: 1.0417vw;
+}
+
+.dmcombine {
+  display: table;
+  margin-bottom: 0.3958vw;
+}
+
+.dmRgt-chat-profile-me {
+  height: 2.9479vw;
+  width: 2.9479vw;
+  margin-right: 2.3438vw;
+  background-size: cover;  
+  float: right;
+}
+
+.dmRgt-chat-name-me {
+  height: 2.3438vw;
+  width: calc(100% - 10.4167vw);
+font-family: Inter;
+font-size: 1.2833vw;
+font-weight: 400;
+line-height: 2.5000vw;
+letter-spacing: 0em;
+margin:1.5625vw;
+margin-top:0.3021vw;
+text-align: right;
+float:right;
+}
+
+.dmRgt-chat-content-me {
+height: auto;
+width: auto;
+border-radius: 0.7813vw;
+border-top-right-radius: 0;
+max-width: 28.6667vw;
+background: #FFFBEB;
+float: right;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 100;
+font-size: 1.0833vw;
+line-height: 1.5000vw;
+text-align: left;
+padding-top : 0.8438vw;
+padding-left: 1.1250vw;
+padding-right: 1.1250vw;
+padding-bottom : 0.8438vw;
+color: #000000;
+/*display : table;*/
+white-space: normal;
+word-wrap: break-word;
+word-break: break-all;
+}
+
+.dmRgt-chat-arrow-me {
+  height: 0.0000vw;
+  width: 0.0000vw;
+  border-bottom: 0.9625vw solid transparent;
+  border-top: 0.9625vw solid transparent;
+  border-left: 0.9625vw solid  #FFFBEB;
+float:right;
+margin-right : 4.6250vw;
+}
+
+.dmRgt-chat-time-me {
+font-family: Inter;
+font-size: 1.0625vw;
+font-weight: 400;
+line-height: 1.8750vw;
+letter-spacing: 0em;
+text-align: right;
+height: 1.8750vw;
+margin-right: 1.0417vw;
+margin-left : 52.0833vw;
+float: right;
+}
+
+.dmcombine-me {
+  /*display: table;*/
+  margin-bottom: 0.3958vw;
+  float:right;
+  width:calc( 100% - 7.1875vw );
+}
+
+.dmRgt-center-logo-image {
+  height: 60%;
+  width: 15.4479vw;
+  float:left;
+  /*background: url(/public/DirectMessage/logo.png);*/
+  background-size:cover;
+}
+
+ @-webkit-keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.dmRgt-div-bottom-image {
+  -webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	        animation: tracking-in-expand 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+  margin-top: 5vw;
+  flex: 0 auto;
+  text-align: center;
+  font-family: 'Inter';
+  font-size: 3.2vw;
+  font-weight: 400;
+}
+
+@-webkit-keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+            filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+    opacity: 1;
+  }
+}
+@keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+            filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+    opacity: 1;
+  }
+}
+
+.dmRgt-div-bottom-add {
+  -webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) 1s backwards;
+	        animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) 1s backwards;
+  height: 5.2083vw;
+  width:31.2500vw;
+  margin-left: 8.029vw;
+  background-image: url(/public/DirectMessage/logo.png);
+  background-size: cover;
+}
+
+.dmchatbox-noone {
+  font-family: 'Inter';
+  font-size: 1.15vw;
+  text-align: center;
+  padding-top: 1.4vw;
+}
+
+.dmchatbox-noone-image{
+height: 26vw;
+width: 100%;
+background-image: url(/public/DirectMessage/noone_image.png);
+background-size: cover;
+background-position: -5.042vw;
+}
+
+.dmImageBox {
+  position: absolute;
+  height: 10vw;
+  width: 10vw;
+  border-radius: 0.7813vw;
+  top : 20vw;
+  left: 33vw;
+  background-color:rgba(251, 219, 105, 0.5);
+}
+
+.dmthumbImg {
+  margin-top: 1vw;
+  margin-left: 0vw;
+  flex: 0 auto;
+  height: 8vw;
+  width: 8vw;
+  background-size: cover;
+}
+
+.dmImageAccept {
+  position: absolute;
+  height: 4.5vw;
+  width: 4.5vw;
+  border-radius: 90%;
+  background-image: url(/public/DirectMessage/apply-button.png);
+  background-size: cover;
+  top : 20vw;
+  left: 43vw;
+  z-index: 1;
+}
+
+.dmImageAccept:hover {
+  cursor: pointer;
+  transition: 0.5s;
+  scale: 1.5;
+}
+
+.dmImageDeny {
+  position: absolute;
+  height: 4.5vw;
+  width: 4.5vw;
+  border-radius: 90%;
+  background-image: url(/public/DirectMessage/deny-button.png);
+  background-size: cover;
+  top : 25.5vw;
+  left: 43vw;
+  z-index: 1;
+}
+
+.dmImageDeny:hover {
+  cursor: pointer;
+  transition: 0.5s;
+  scale: 1.5;
+}
+
+.dmattach-textbox {
+  width : 9vw;
+  height : 9vw;
+  padding-top: 0.5vw;
+  padding-left: 0.5vw;
+  white-space: normal;
+  word-break: break-all;
+  word-wrap: break-word;
+  font-size: 1.2vw;
+  overflow: hidden;
+}
+
+.dmRgt-chat-content-file {
+  height: auto;
+width: auto;
+border-radius: 0.7813vw;
+border-top-left-radius: 0;
+max-width: 41.6667vw;
+background: #FFFBEB;
+/*float:left;*/
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 100;
+font-size: 1.2833vw;
+line-height: 2.5000vw;
+text-align: left;
+padding-top : 1.3438vw;
+padding-left: 2.1250vw;
+padding-right: 2.1250vw;
+padding-bottom:  1.3438vw;
+color: #000000;
+word-wrap: break-word;
+/*display : table;*/
+white-space: normal;
+word-wrap: break-word;
+word-break: break-all;
+  color: blue;
+  font-style: italic;
+}
+
+.dmRgt-chat-content-file:hover {
+ cursor: pointer;
+}
+
+.dmRgt-chat-content-me-file {
+  height: auto;
+width: auto;
+border-radius: 0.7813vw;
+border-top-right-radius: 0;
+max-width: 41.6667vw;
+background: #FFFBEB;
+float: right;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 100;
+font-size: 1.2833vw;
+line-height: 2.5000vw;
+text-align: left;
+padding-top : 1.3438vw;
+padding-left: 2.1250vw;
+padding-right: 2.1250vw;
+padding-bottom : 1.3438vw;
+/*display : table;*/
+white-space: normal;
+word-wrap: break-word;
+word-break: break-all;
+color: blue;
+font-style: italic;
+}
+
+.dmRgt-chat-content-me-file:hover {
+ cursor: pointer;
+}
+
+.dmfile-icon {
+  position: relative;
+  margin-top: 0.2vw;
+  width:2vw;
+  height:2vw;
+  background-image: url(/public/DirectMessage/file-icon.jpg);
+  background-size: cover;
+  float: left;
+  margin-right: 1vw;
+}
+
+.dmroomquit {
+  float:right;
+  width: 13vw;
+  height: auto;
+  text-align: center;
+  background-color: #ffa600;
+  color: white;
+  font-size: 1.2033vw;
+  margin-right: 2.5vw;
+}
+
+.dmroomquit:hover {
+cursor: pointer;
+}
+
+.dmquitalarm {
+  width: 100%;
+  font-weight: 400;
+  font-size: 2.0833vw;
+  text-align: center;
+  float:left;
+  color: gray;
+}
+
+.dminput-button-no {
+  height: 4.6168vw;
+  width: 6.6610vw;
+  border-radius: 1.0417vw;
+float:left;
+
+background: gray;
+border-radius: 1.0417vw;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 2.0833vw;
+line-height: 4.6168vw;
+text-align: center;
+vertical-align: middle;
+color: #FFFFFF;
+margin-left : 1.5000vw;
+}
+
+.dminput-something-no {
+  height: 3.3333vw;
+  width: 3.3333vw;
+  border-radius: 50%;
+  float: left;
+  background-image: url(/public/DirectMessage/new-information-button3.png);  /* 자리 잡으면 없앨 것 */
+  background-color: gray;
+  background-size: cover;
+  margin-top : 0.4167vw;
+}

@@ -1,0 +1,58 @@
+.mypageLayout {
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  /* width: 190vh; */
+}
+
+.mywrapper {
+  display: flex;
+  position: relative;
+  width: 80%;
+  float: right;
+  flex-direction: column;
+  margin-left: 20vh;
+  margin-top: 20px;
+}
+
+.myproject {
+  width: 800px;
+  height: 80px;
+  margin-bottom: 20px;
+  /* margin-right: 530px; */
+  align-items: center;
+  border: 5px solid #ffebb4;
+  border-radius: 20px;
+  padding: 15px;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  /* float: right; */
+  font-size: 20px;
+  text-align: center;
+}
+
+.myfreelancer {
+  width: 800px;
+  height: 80px;
+  margin-bottom: 20px;
+  margin-right: 530px;
+  align-items: center;
+  border: 5px solid #ffd2b4;
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  float: right;
+  font-size: 20px;
+  text-align: center;
+}
+
+.myh4 {
+  text-align: left;
+  font-size: 24px;
+  flex-direction: column;
+  display: flex;
+  margin-bottom: 20px;
+}

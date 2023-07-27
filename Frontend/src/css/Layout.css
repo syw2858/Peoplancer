@@ -1,0 +1,153 @@
+@font-face {
+    font-family: 'LINESeedKR-Rg';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/LINESeedKR-Rg.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+
+* {
+    font-family: 'LINESeedKR-Rg';
+    white-space: nowrap;
+}
+
+#Layout {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#LayoutWrapper {
+    min-height: calc(100vh - 150px);
+    position: relative;
+}
+
+#LayoutHeader {
+    height: 160px;
+}
+
+#LayoutLogo {
+    position: absolute;
+    margin: 15px 30px 0px 20px;
+}
+
+#dm {
+    position: absolute;
+    right: 220px;
+    top: 15px;
+}
+
+#dm img {
+    width: 55px;
+    transition: transform 0.3s ease;
+}
+#dm:hover img {
+    transform: scale(1.2);
+}
+
+#LayoutHeader .menubar {
+    position: absolute;
+    width: 100%;
+    height: 65px;
+    top: 70px;
+    left: 0px;
+    background: #FBDB6A;
+}
+
+li.menu span {
+    color: rgb(24, 24, 24);
+    font-size: 20px;
+    font-weight: bolder;
+    display: block;
+    height: 55px;
+    text-align: center;
+    align-items: center;
+    padding: 5px 25px 5px;
+    text-decoration: none;
+}
+
+li.menu span:hover {
+    color: black;
+}
+
+li.menu {
+    text-align: left;
+    display: inline-block;
+    text-decoration: none;
+}
+
+div .memberbtn {
+    position: absolute;
+    right: 0px;
+    top: 10px;
+    margin: 15px 0px 0px 0px;
+    padding: 0px;
+}
+
+li.member a {
+    color: rgb(54, 54, 54);
+    display: block;
+    text-align: right;
+    padding: 0px 20px 0px;
+    text-decoration: none;
+    font-weight: 800;
+}
+
+li.member a:hover {
+    color: black;
+}
+
+li.welcome-message {
+    list-style-type: none;
+}
+
+li.member {
+    display: inline-block;
+    text-align: right;
+}
+
+.posts {
+    position: relative;
+    /* width: 75%;
+    height: 100%;
+    float: left;
+    line-height: 40px;
+    margin: 0 12% 0 12%;
+    padding: 20px 0 20px 0; */
+    /* padding-bottom: 150px; */
+    min-height: 70vh;
+    z-index: 1;
+}
+
+#LayoutFooter {
+    width: 100%;
+    background: #FBDB6A;
+    bottom: 0;
+    position: relative;
+    margin-top: 20px;
+}
+
+#LayoutFooter td {
+    font-weight: 600;
+    color: rgb(78, 78, 78);
+    padding: 5px;
+}
+
+#LayoutFooterCenter {
+    margin: 20px;
+}
+
+.scrolling-image {
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    width: 50px;
+    height: 50px;
+    transform: translateY(-50%);
+    z-index: 9999;
+    background-size: cover;
+}
+
+.scrolling-image img {
+    width: 70px;
+    height: 70px;
+}

@@ -1,0 +1,74 @@
+.fc-day-sun a {
+    color: red;
+}
+
+.fc-day-sat a {
+    color: blue;
+}
+
+.fc-day:hover .fc-daygrid-day-events .fc-event {
+    transform: scale(1.2);
+}
+
+.fc-direction-ltr {
+    text-align: center;
+}
+
+.calendar-container {
+    width: 1000px;
+    height: 1000px;
+    padding-right: 3vh;
+}
+
+.calendar-wrapper {
+    display: flex;
+}
+
+
+.form-wrapper-gj {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1em;
+    padding: 1em;
+    background-color: #FFF5D3;
+}
+
+label.label-gj {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1em;
+}
+
+input.calinput-gj,
+select.cal-gj {
+    padding: 0.5em;
+    border-radius: 0.3em;
+    border: none;
+    box-shadow: none;
+}
+
+div.flex {
+    display: flex;
+}
+
+button.cal-button-gj {
+    margin-top: 1em;
+    padding: 0.5em 1em;
+    border-radius: 0.3em;
+    background-color: #2b3541;
+    color: #fff;
+    border: none;
+    box-shadow: none;
+    cursor: pointer;
+}
+
+button.cal-button-gj:hover {
+    background-color: #355f8f;
+}
+
+textarea.cal-textarea {
+    resize: none;
+    width: 30vh;
+    height: 15vh;
+}

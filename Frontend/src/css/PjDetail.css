@@ -1,0 +1,198 @@
+.PjContainer {
+    width: 1000px; height: fit-content;
+    margin: 0 auto;
+}
+
+.PjDetail {
+    float: left;
+    width: 700px;
+}
+
+#PjAside {
+    float: right;
+    width: 250px;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.PjDetailBox1 {
+    background-color: #fdfaf0;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+    text-align: left;
+}
+
+.PjDetailBox1 table {
+    margin: 0 auto; width: 100%;
+}
+
+.PjDetailBox1 td {
+    padding: 0 10px;
+}
+
+.PjDetailBox2 {
+    padding: 10px;
+    margin: 10px;
+    text-align: left;
+}
+
+.PjDetailBox2 td {
+    padding: 5px;
+}
+
+#PjContent {
+    padding: 30px 0;
+}
+
+.info {
+    font-weight: bold;
+    font-size: smaller;
+    color: rgb(134, 134, 134);
+}
+
+.PjReview {
+    padding: 10px;
+    margin: 10px;
+}
+
+.PjContact { padding: 10px; }
+
+.PjContact table {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 14px;
+}
+
+.PjLikeBtn {
+    margin: 5px;
+    cursor: pointer;
+}
+
+.PjDM {
+    font-weight: bold;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.PjLikeBtn:hover,
+.PjDM:hover {
+    color: #444;
+    border-bottom: 3px solid #FBDB6A;
+}
+
+#PjApply {
+    margin: 20px;
+}
+
+.PjApplyBtn {
+    background-color: #FBDB6A;
+    border-radius: 20px;
+    margin: 10px 0;
+    padding: 10px 40px;
+}
+
+.PjApplyBtn:hover {
+    background-color: #ffe68b;
+    cursor: pointer;
+}
+
+.PjSimilar {
+    box-shadow: 0px 0px 5px #cfcfcf;
+    border-radius: 20px;
+    margin: 10px 0 10px; padding: 7px;
+}
+
+.PjSimilar:hover {
+    box-shadow: 0px 0px 5px #bababa;
+}
+
+/* 회사 평가 folding */
+.PjReview details {
+    margin: 5px 0 10px;
+}
+
+.PjReview details>summary {
+    background: #444;
+    color: #fff;
+    padding: 10px;
+    outline: 0;
+    cursor: pointer;
+    transition: background 0.5s;
+    text-align: center;
+}
+
+.PjReview details>summary::-webkit-details-marker {
+    background: #ffffff;
+    color: #494949;
+    background-size: contain;
+    transform: rotate3d(0, 0, 1, 90deg);
+    transition: transform 0.25s;
+}
+
+.PjReview details[open]>summary::-webkit-details-marker {
+    transform: rotate3d(0, 0, 1, 180deg);
+}
+
+.PjReview details[open]>summary {
+    background: #ffffff;
+    color: #494949;
+}
+
+.PjReview details[open]>summary~* {
+    animation: reveal 0.5s;
+}
+
+.tpt {
+    border: 1px gray;
+    border-style: solid hidden hidden;
+    color: #000000;
+    margin: 5px 0 10px;
+    padding: 5px 10px;
+    line-height: 25px;
+    text-align: left;
+}
+
+@keyframes reveal {
+    from {
+        opacity: 0;
+        transform: translate3d(0, -30px, 0);
+    }
+
+    to {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+.PjBtn1 {
+    padding: 5px 10px;
+    margin: 50px;
+    background-color: white;
+    border: none;
+    color: #444;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.PjBtn1:hover {
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+.PjBtn2 {
+    font-weight: bold;
+    padding: 5px 10px;
+    margin: 5px;
+    border: 1px solid #444;
+    background-color: #ffffff;
+    color: #444;
+    border-radius: 20px;
+
+}
+
+.PjBtn2:hover {
+    cursor: pointer;
+    color:#797979;
+}

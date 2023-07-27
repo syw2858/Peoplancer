@@ -1,0 +1,133 @@
+/* ManagementForm.css */
+
+.container-manageform {
+  border: 1;
+  height: 100%;
+  margin: 0 auto;
+  padding-left: 1rem;
+}
+
+.button-manageform {
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 2.4rem;
+  padding: 13px 20px;
+  background-color: #ffebb4;
+  color: black;
+  border: none;
+  border-radius: 0.2rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.button-manageform:hover {
+  background-color: #dbbd83;
+}
+
+/* 이 탭의 width에 따라 버튼모양이 피그마처럼 나오는지 안나오는지 보여줄수있음 */
+.tab-manageform {
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+}
+
+.tab-manageform button {
+  flex: 1;
+}
+
+.tab-manageform button:last-child {
+  margin-right: 0;
+}
+
+.tab-manageform button.active {
+  background-color: tomato;
+  color: #fff;
+  border: solid;
+  border-width: 1px;
+  border-color: gray;
+}
+
+.listcontainer-manageform {
+  border-width: 1px;
+  border-style: solid;
+  border-top-style: none;
+  border-color: gray;
+  min-height: 30vh;
+  height: 100%;
+  width: 100vh;
+}
+
+.listcontainer-manageform ul {
+  padding-inline-start: 0;
+  margin-top: 0;
+}
+
+.list-manageform {
+  margin-bottom: 5rem;
+  list-style: none;
+}
+
+.list-manageform ul {
+  padding-inline-start: 0;
+}
+
+.list-manageform li {
+  font-size: 1.3rem;
+  line-height: 2.4rem;
+}
+
+.list-item-manageform:hover {
+  background-color: aliceblue;
+}
+
+.list-item-manageform>span {
+  display: inline-block;
+  padding-right: 0.5rem;
+  width: 33.33%;
+  box-sizing: border-box;
+}
+
+.list-manageform li:last-child {
+  margin-bottom: 0;
+}
+
+.list-manageform li span {
+  font-weight: 700;
+}
+
+.index-manageform {
+  display: flex;
+  background-color: #fbdb6a;
+  height: 5vh;
+  width: 100%;
+}
+
+.index-manageform span {
+  flex: 1;
+}
+
+.index-manageform>span {
+  width: 33.33%;
+}
+
+.change-status-button {
+  background: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 19px;
+  font-weight: bold;
+}
+
+.change-status-button:hover {
+  background: #ffebb4;
+  cursor: pointer;
+}
+
+/* .list li.completed {
+    color: #9e9e9e;
+} */
+
+/* .list li.completed span {
+    text-decoration: line-through;
+} */
